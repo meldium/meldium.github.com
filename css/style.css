@@ -21,15 +21,21 @@ body {
   padding-right: 20px;
 }
 
-.name {
-  font-family:"museo";
+.header {
+  font-family: "museo";
   text-align: center;
+  font-size: 90px;
+  line-height: 150px;
 }
 
 .presents {
-  text-align: center;
   font-family:"lobster";
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  display: inline-block;
 }
 
 .apps4 {

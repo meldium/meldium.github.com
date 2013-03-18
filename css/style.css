@@ -64,6 +64,10 @@ body {
   line-height: 60px;
 }
 
+.add-app iframe {
+  vertical-align: middle;
+}
+
 hr {
   height: 1px;
   border: 0 none;

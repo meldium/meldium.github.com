@@ -24,16 +24,9 @@ setInterval(function(){
 
   s += minutes.toString();
   if (minutes == 1) {
-    s += " minute, ";
+    s += " minute ";
   } else {
-    s += " minutes, ";
-  }
-
-  s += seconds.toString();
-  if (seconds == 1) {
-    s += " second";
-  } else {
-    s += " seconds";
+    s += " minutes ";
   }
 
   document.getElementById('time-remaining').innerHTML = s;

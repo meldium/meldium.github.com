@@ -1,0 +1,59 @@
+body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-fluid {
+  background: #ff4c30;
+}
+.container-fluid .row-fluid .span12 .navbar {
+  height: 42px;
+}
+.container-fluid .row-fluid .span12 .navbar .navbar-inner {
+  height: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container-fluid .row-fluid .span12 .heading {
+  font-family:"museo";
+  text-align: center;
+  color: #ffffff;
+}
+.container-fluid .row-fluid .span12 p {
+  text-align: center;
+  font-family:"lobster";
+  color: #ffffff;
+  margin: 0px;
+}
+.container-fluid .row-fluid .span10 .heading {
+  text-align: center;
+  font-family:"museo";
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  padding: 0px 0px 10px 0px;
+}
+.container-fluid .row-fluid .span10 p {
+  font-family:"museo-sans";
+  text-align: center;
+  color: #ffffff;
+}
+.container-fluid .row-fluid .span10 p.p-1 {
+  padding: 0px 0px 10px 0px;
+  border-bottom: 2px solid #ffffff;
+}
+.container-fluid .row-fluid .span10 p.p-2 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.container-fluid .row-fluid .span12 .form-horizontal .control-group .controls .control-label {
+  margin: 0px 5px 5px 0px;
+  color: #ffffff;
+}
+.container-fluid .row-fluid .span6 .heading {
+  font-family:"museo";
+  text-align: center;
+  color: #ffffff;
+}
+.container-fluid .row-fluid .span6 p {
+  color: #ffffff;
+  font-family:"museo-sans";
+}

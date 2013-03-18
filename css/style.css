@@ -28,6 +28,7 @@ body {
   line-height: 150px;
 }
 
+
 .presents {
   font-family:"lobster";
   font-size: 30px;
@@ -38,6 +39,19 @@ body {
   display: inline-block;
 }
 
+@media (max-width: 480px) {
+  .header {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .presents {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+
 .apps4 {
   font-family:"museo";
   text-align: center;
@@ -47,7 +61,8 @@ body {
 .about {
   text-align: center;
   font-family:"museo";
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 30px;
   font-size: 20px;
 }

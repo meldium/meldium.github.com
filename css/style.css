@@ -9,6 +9,12 @@ body {
 
 a {
   color: #ccc;
+k
+
+a:hover {
+  background-color: #62b0ff;
+  color: white;
+  text-decoration: none;
 }
 
 .container-fluid {

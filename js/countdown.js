@@ -3,8 +3,6 @@ setInterval(function(){
   var now = (new Date()).getTime() / 1000;
   remaining = end - now
 
-  console.log(remaining);
-
   if (remaining < 0) {
     remaining = 0;
   }

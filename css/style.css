@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: #ccc;
+}
+
 .container-fluid {
   background: #ff4c30;
 }

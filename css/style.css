@@ -2,6 +2,9 @@ body {
   padding-left: 0;
   padding-right: 0;
   color: #ffffff;
+  background: #ff4c30;
+  font-family:"museo";
+  text-align: center;
 }
 
 .container-fluid {
@@ -26,6 +29,7 @@ body {
 .presents {
   text-align: center;
   font-family:"lobster";
+  font-size: 20px;
 }
 
 .apps4 {
@@ -38,7 +42,8 @@ body {
   text-align: center;
   font-family:"museo";
   margin: 20px;
-  line-height: 26px;
+  line-height: 30px;
+  font-size: 20px;
 }
 
 .about p {

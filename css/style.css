@@ -1,19 +1,20 @@
 body {
   padding-left: 0;
   padding-right: 0;
-  color: #ffffff;
+  color: #EFEFEF;
   background: #ff4c30;
-  font-family:"museo";
+  font-family:"museo-sans";
   text-align: center;
 }
 
 a {
-  color: #ccc;
+  color: white;
+  font-weight: bolder;
 }
 
 a:hover {
-  background-color: #62b0ff;
-  color: white;
+  background-color: white;
+  color: #ff4c30;
   text-decoration: none;
 }
 
@@ -70,26 +71,16 @@ a:hover {
 
 
 .apps4 {
-  font-family:"museo";
   text-align: center;
   margin-bottom: 40px;
 }
 
 .about {
   text-align: center;
-  font-family:"museo";
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 30px;
   font-size: 20px;
-}
-
-.about p {
-  /*
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  */
 }
 
 .counts {
